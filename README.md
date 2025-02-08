@@ -14,7 +14,7 @@ When the user interacts with the SearchBar, the SearchBar calls the onFilterText
 
 These functions update the state in the FilterableProductTable component, which triggers a re-render of the entire component tree.
 
-Example Flow:
+Example:
 The user types "apple" in the search bar.
 
 The SearchBar calls onFilterTextChange("apple"), which updates the filterText state in FilterableProductTable.
